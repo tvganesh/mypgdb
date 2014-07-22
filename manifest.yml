@@ -1,0 +1,8 @@
+applications:
+- name: mypgdb01
+  memory: 256M
+  instances: 1
+  host: mypgdb01
+  domain: mybluemix.net
+  path: .
+  command: node app.js
